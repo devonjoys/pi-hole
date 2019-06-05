@@ -161,6 +161,19 @@ show_ascii_berry() {
                 .',,,,,,'.
                   ..'''.${COL_NC}
 "
+show_pizza()
+}
+
+show_pizza() {
+  echo -e "
+                   ${COL_LIGHT_GRAY}
+              ..--''''--..
+            .'  o    o  o '.
+           ' o      o    o  '
+           '     o     o  o '
+            '. o  o   o   .'
+               ''--___--''${COL_NC}
+  "
 }
 
 is_command() {
